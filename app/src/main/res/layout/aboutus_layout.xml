@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/chitkarabg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="About Us"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/textView"
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView"
+        android:fillViewport="true" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="In the year 2002, Chitkara Educational Trust established its Punjab campus 30 kilometers from Chandigarh, on the Chandigarh–Patiala National Highway. In the year 2010 Chitkara University was established by the Punjab State Legislature under “The Chitkara University Act”.  Chitkara University, the best university in Punjab is a government-recognized university with the right to confer degrees as per the Sections 2(f) and 22(1) of the UGC Act, 1956.  The sprawling campus of the University is equidistant from Chandigarh, Mohali, Panchkula, Ambala and Patiala. The University offers multi-disciplinary programs, all of which are designed to be industry-relevant. As a result of this student-centric approach, Chitkara University is renowned as one of the best private universities in the North India region. From business management programs to programs in nursing and medical laboratory technologies; and from computer science, electronics and mechanical engineering programs, to hotel management and architecture—Chitkara University, Punjab is a veritable cornucopia of educational services.  Curriculum is delivered in spacious, amphitheatre-style classrooms—fitted with modern information and communication technology (ICT) equipment—and in well-equipped, modern laboratories. Additionally, students are encouraged—and provided relevant facilities—to participate in co-curricular and extra-curricular activities through various clubs and societies on the campus.  It is because of the cumulative effect of an elaborate in-campus academic infrastructure; strong national and international collaborations; and a robust on-campus recruitment record—including regular recruitment by reputed blue-chip companies—that the University finds favor with national as well as international students.  A healthy number of foreign students regularly study at the campus and number of them also visit on exchange programs, adding to the cultural diversity found on campus. The University in Punjab provides several opportunities for local students, too, to visit foreign universities and institutions on such exchange programs, thereby helping them receive invaluable international exposure.  The University has at the centre of its philosophical core the commitment to excellence in education. It is the strong academic heritage of the University, and such firmness on matters of principles that has seen it grow from strength to strength in such a short span of time."
+            android:id="@+id/textView2"
+            android:allowUndo="false" />
+    </ScrollView>
+
+</RelativeLayout>
